@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/backg"
+    tools:context=".splash">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/flogo"
+        />
+
+    <TextView
+        android:id="@+id/one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:text="POESTOMIX"
+        android:layout_marginBottom="15dp"
+        android:textColor="#2B2929"
+        android:textSize="55sp" />
+
+    <TextView
+        android:id="@+id/two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Write. Read. Love"
+        android:textColor="#020202"
+        android:layout_marginBottom="10dp"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Where your stories starts"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+
+
+</LinearLayout>

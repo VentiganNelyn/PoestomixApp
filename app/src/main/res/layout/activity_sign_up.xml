@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backg"
+    android:gravity="center"
+    android:padding="30dp"
+    tools:context=".SignUp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/almendra_display"
+        android:text="POESTOMIX"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Sign Up:"
+        android:textColor="#0B0A0A"
+        android:paddingBottom="25dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColor="#4A4646" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="#4A4646" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="#4A4646" />
+
+    <Button
+        android:onClick="login"
+        android:id="@+id/btnlogin"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:text="Start Reading"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        app:backgroundTint="#FFFFFF" />
+
+</LinearLayout>

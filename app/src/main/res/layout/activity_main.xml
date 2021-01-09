@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/backg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/almendra_display"
+        android:text="POESTOMIX"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="username"
+        android:textColor="#121111"
+        app:backgroundTint="#FFFFFF" />
+
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="password"
+        android:textColor="#0C0C0C"
+        app:backgroundTint="#FFFFFF" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="LOG IN"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        app:backgroundTint="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create an account?"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textColor="#2196F3"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
